@@ -17,7 +17,7 @@
 
 # Event Hubs programming guide
 
-This topic describes programming with Azure Event Hubs using the Azure .NET SDK. It assumes a preliminary understanding of Event Hubs. For conceptual an overview of Event Hubs, see the [Event Hubs overview](event-hubs-overview.md).
+This topic describes programming with Azure Event Hubs using the Azure .NET SDK. It assumes a preliminary understanding of Event Hubs. For a conceptual overview of Event Hubs, see the [Event Hubs overview](event-hubs-overview.md).
 
 ## Publishing events: event publishers
 
