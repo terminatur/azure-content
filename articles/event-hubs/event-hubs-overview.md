@@ -41,7 +41,7 @@ Partitions retain data for a configured retention time that is set at the Event 
 
 ![Event Hubs](./media/event-hubs-overview/IC759858.png)
 
-The number of partitions is specified at the Event Hub creation time and must be between 8 and 32. Partitions are a data organization mechanism and are more related to the degree of downstream parallelism required in consuming applications than to Event Hubs throughput. This makes the choice of the number of partitions in an Event Hub directly related to the number of concurrent readers you expect to have. After Event Hub creation, the partition count is not changeable; you should consider this number in terms of long-term expected scale. You can increase the 32 partition limit by contacting the Azure Service Bus team.
+The number of partitions is specified at the Event Hub creation time and must be between 2 and 32. Partitions are a data organization mechanism and are more related to the degree of downstream parallelism required in consuming applications than to Event Hubs throughput. This makes the choice of the number of partitions in an Event Hub directly related to the number of concurrent readers you expect to have. After Event Hub creation, the partition count is not changeable; you should consider this number in terms of long-term expected scale. You can increase the 32 partition limit by contacting the Azure Service Bus team.
 
 While partitions are identifiable and can be sent to directly, it is generally best to avoid sending data to specific partitions. Instead, you can use higher level constructs introduced in the [Event publisher](#Event-publisher) and [Publisher Policy](#Capacity-and-security) sections.
 
